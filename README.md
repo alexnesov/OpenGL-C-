@@ -50,4 +50,6 @@ Place main.cpp in a <i>src</i> folder
 <li>To support proper debugging with symbols, add -g at the end of the “CXXFLAGS” line.
 </br>
 
+Type <code>make</code> in cmd prompt and hit [Enter]
+
 See: https://www.paulbarrick.com/game-devlopment/game-development-on-linux-using-vscode-sdl2-and-opengl/
