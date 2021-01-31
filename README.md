@@ -32,7 +32,7 @@ Includes Linear Algebra
 
 
 
-## Visual Studio Code configuration:
+### Visual Studio Code configuration:
 Install "C/C++ Makefile Project" from Extensions (CTRL + SHIFT + X)
 </br>
 Install </b>Code Runner</b>
