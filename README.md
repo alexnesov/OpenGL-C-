@@ -10,7 +10,6 @@ Includes Linear Algebra
 <h5>Install the compiler:</h5> 
 <code>sudo apt update</code></br></br>
 <h5>Install GCC, G++, and Make:</h5>
-br>
 <code>sudo apt install build-essential</code></br></br>
 <h5>Install GDB debugger:</h5>
 <code>sudo apt install gdb</code></br>
@@ -44,12 +43,9 @@ Code Runner allows you to run a piece of code without having to use the terminal
 Place main.cpp in a <i>src</i> folder
 
 ### Set up the make file for compiling:
-Press [Control] + [Shift] + [p]. In the resulting requester, type in c/c++ make and then select “C/C++ Make: INIT Project” from the list.
-</br>
-Select C++
-</br>
-Setting up the libraries for <b>linking</b> to the project. After "LDFLAGS":
-</br>
+<li>Press [Control] + [Shift] + [p]. In the resulting requester, type in c/c++ make and then select “C/C++ Make: INIT Project” from the list.
+<li>Select C++
+<li>Setting up the libraries for <b>linking</b> to the project. After "LDFLAGS":
 <code>-lSDL2 -lGL -lGLEW</code>
 </br>
 
