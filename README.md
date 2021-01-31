@@ -1,7 +1,7 @@
 # OpenGL-CPP
 Discovering computer graphics with modern OpenGL and C++
 </br>
-Include Linear Algebra
+Includes Linear Algebra
 </br>
 
 <code>sudo apt-get install libglew-dev</code></br>
