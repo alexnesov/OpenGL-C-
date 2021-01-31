@@ -21,3 +21,13 @@ Includes Linear Algebra
 
 # Visual Studio Code confiduation:
 Install "C/C++ Makefile Project" from Extensions (CTRL + SHIFT + X)
+</br>
+Install </b>Code Runner</b>
+</br>
+Code Runner allows you to run a piece of code without having to use the terminal to build your application.
+</br>
+
+
+
+
+See: https://www.paulbarrick.com/game-devlopment/game-development-on-linux-using-vscode-sdl2-and-opengl/
