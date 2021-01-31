@@ -6,3 +6,18 @@ Includes Linear Algebra
 
 <code>sudo apt-get install libglew-dev</code></br>
 <code>sudo apt-get install libglfw3 libglfw3-dev</code>
+<code>sudo apt install libglu1-mesa-dev freeglut3-dev mesa-common-dev</code>
+
+<h4>SDL 2 and supporting libraries:</h4>
+<code>sudo apt install libsdl2-dev libsdl2-2.0-0</code>
+</br>
+<code>sudo apt install libjpeg-dev libwebp-dev libtiff5-dev libsdl2-image-dev libsdl2-image-2.0-0</code>
+</br>
+<code>sudo apt install libfreetype6-dev libsdl2-ttf-dev libsdl2-ttf-2.0-0</code>
+</br>
+
+
+
+
+# Visual Studio Code confiduation:
+Install "C/C++ Makefile Project" from Extensions (CTRL + SHIFT + X)
