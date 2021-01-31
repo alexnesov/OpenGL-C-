@@ -47,9 +47,7 @@ Place main.cpp in a <i>src</i> folder
 <li>Select C++
 <li>Setting up the libraries for <b>linking</b> to the project. After "LDFLAGS":
 <code>-lSDL2 -lGL -lGLEW</code>
-</br>
-
-Finally, to support proper debugging with symbols, add -g at the end of the “CXXFLAGS” line.
+<li>To support proper debugging with symbols, add -g at the end of the “CXXFLAGS” line.
 </br>
 
 See: https://www.paulbarrick.com/game-devlopment/game-development-on-linux-using-vscode-sdl2-and-opengl/
