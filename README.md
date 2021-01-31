@@ -7,11 +7,11 @@ Includes Linear Algebra
 
 
 # Setting up the dev env for Linux
-Compiler:
-<code>sudo apt update</code></br>
+Install the compiler: </br>
+<code>sudo apt update</code></br></br>
 Install GCC, G++, and Make:
 </br>
-<code>sudo apt install build-essential</code></br>
+<code>sudo apt install build-essential</code></br></br>
 Install GDB debugger:
 <code>sudo apt install gdb</code></br>
 
