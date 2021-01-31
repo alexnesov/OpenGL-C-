@@ -55,8 +55,6 @@ Place main.cpp in a <i>src</i> folder
 
 Type <code>make</code> in cmd prompt and hit [Enter]
 </br>
-
-A big thank you to Paul Barrick for his incredible tutorial!
+A big thanks to Paul Barrick for his incredible tutorial!
 </br>
-
 See: https://www.paulbarrick.com/game-devlopment/game-development-on-linux-using-vscode-sdl2-and-opengl/
