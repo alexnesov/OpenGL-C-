@@ -7,20 +7,22 @@ Includes Linear Algebra
 
 
 # Setting up the dev env for Linux
-Install the compiler: </br>
+<h5>Install the compiler:</h5> 
 <code>sudo apt update</code></br></br>
 Install GCC, G++, and Make:
 </br>
 <code>sudo apt install build-essential</code></br></br>
 Install GDB debugger:
 <code>sudo apt install gdb</code></br>
+</br>
 
+<h5>OpenGL and GLEW:</h5>
 
 <code>sudo apt-get install libglew-dev</code></br>
 <code>sudo apt-get install libglfw3 libglfw3-dev</code>
 <code>sudo apt install libglu1-mesa-dev freeglut3-dev mesa-common-dev</code>
 
-<h4>SDL 2 and supporting libraries:</h4>
+<h5>SDL 2 and supporting libraries:</h5>
 <code>sudo apt install libsdl2-dev libsdl2-2.0-0</code>
 </br>
 <code>sudo apt install libjpeg-dev libwebp-dev libtiff5-dev libsdl2-image-dev libsdl2-image-2.0-0</code>
