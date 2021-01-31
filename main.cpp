@@ -7,6 +7,7 @@ const GLint WIDTH = 800, HEIGHT = 600;
 
 int main()
 {
+    // Fasten your seatbelt and relax
     // https://www.youtube.com/watch?v=aOvpU8y_dGo&ab_channel=2trancentral
     // Initialise GLFW
     if(!glfwInit());
