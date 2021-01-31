@@ -4,6 +4,18 @@ Discovering computer graphics with modern OpenGL and C++
 Includes Linear Algebra
 </br>
 
+
+
+# Setting up the dev env for Linux
+Compiler:
+<code>sudo apt update</code></br>
+Install GCC, G++, and Make:
+</br>
+<code>sudo apt install build-essential</code></br>
+Install GDB debugger:
+<code>sudo apt install gdb</code></br>
+
+
 <code>sudo apt-get install libglew-dev</code></br>
 <code>sudo apt-get install libglfw3 libglfw3-dev</code>
 <code>sudo apt install libglu1-mesa-dev freeglut3-dev mesa-common-dev</code>
@@ -19,7 +31,7 @@ Includes Linear Algebra
 
 
 
-# Visual Studio Code configuration:
+## Visual Studio Code configuration:
 Install "C/C++ Makefile Project" from Extensions (CTRL + SHIFT + X)
 </br>
 Install </b>Code Runner</b>
