@@ -10,7 +10,7 @@ Includes Linear Algebra
 <h5>Install the compiler:</h5> 
 <code>sudo apt update</code></br></br>
 <h5>Install GCC, G++, and Make:</h5>
-</br>
+br>
 <code>sudo apt install build-essential</code></br></br>
 <h5>Install GDB debugger:</h5>
 <code>sudo apt install gdb</code></br>
@@ -24,9 +24,9 @@ Includes Linear Algebra
 
 <h5>SDL 2 and supporting libraries:</h5>
 <code>sudo apt install libsdl2-dev libsdl2-2.0-0</code>
-</br>
+<h5>SDL Image:</h5>
 <code>sudo apt install libjpeg-dev libwebp-dev libtiff5-dev libsdl2-image-dev libsdl2-image-2.0-0</code>
-</br>
+<h5>SDL True Type Fonts:</h5>
 <code>sudo apt install libfreetype6-dev libsdl2-ttf-dev libsdl2-ttf-2.0-0</code>
 </br>
 
@@ -45,6 +45,15 @@ Place main.cpp in a <i>src</i> folder
 
 ### Set up the make file for compiling:
 Press [Control] + [Shift] + [p]. In the resulting requester, type in c/c++ make and then select “C/C++ Make: INIT Project” from the list.
+</br>
+Select C++
+</br>
+Setting up the libraries for <b>linking</b> to the project. After "LDFLAGS":
+</br>
+<code>-lSDL2 -lGL -lGLEW</code>
+</br>
 
+Finally, to support proper debugging with symbols, add -g at the end of the “CXXFLAGS” line.
+</br>
 
 See: https://www.paulbarrick.com/game-devlopment/game-development-on-linux-using-vscode-sdl2-and-opengl/
