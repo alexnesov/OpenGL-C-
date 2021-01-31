@@ -3,6 +3,7 @@ Discovering computer graphics with modern OpenGL and C++
 </br>
 Includes Linear Algebra
 </br>
+</br>
 
 
 
@@ -28,6 +29,7 @@ Includes Linear Algebra
 <h5>SDL True Type Fonts:</h5>
 <code>sudo apt install libfreetype6-dev libsdl2-ttf-dev libsdl2-ttf-2.0-0</code>
 </br>
+</br>
 
 
 
@@ -41,12 +43,13 @@ Code Runner allows you to run a piece of code without having to use the terminal
 </br>
 
 Place main.cpp in a <i>src</i> folder
+</br>
 
 ### Set up the make file for compiling:
 <li>Press [Control] + [Shift] + [p]. In the resulting requester, type in c/c++ make and then select “C/C++ Make: INIT Project” from the list.
 <li>Select C++
 <li>Setting up the libraries for <b>linking</b> to the project. After "LDFLAGS":
-<code>-lSDL2 -lGL -lGLEW</code>
+<code>LDFLAGS = -lSDL2 -lGL -lGLEW -lglfw -lm -lX11 -lpthread -lXi -lXrandr -ldl</code>
 <li>To support proper debugging with symbols, add -g at the end of the “CXXFLAGS” line.
 </br>
 
