@@ -1,7 +1,7 @@
 # OpenGL-CPP
 Discovering computer graphics with modern OpenGL and C++
 </br>
-Includes Linear Algebra
+Includes some Linear Algebra
 </br>
 </br>
 
