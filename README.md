@@ -27,7 +27,10 @@ Install </b>Code Runner</b>
 Code Runner allows you to run a piece of code without having to use the terminal to build your application.
 </br>
 
+Place main.cpp in a <i>src</i> folder
 
+## Set up the make file for compiling:
+Press [Control] + [Shift] + [p]. In the resulting requester, type in c/c++ make and then select “C/C++ Make: INIT Project” from the list.
 
 
 See: https://www.paulbarrick.com/game-devlopment/game-development-on-linux-using-vscode-sdl2-and-opengl/
