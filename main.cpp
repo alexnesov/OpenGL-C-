@@ -7,6 +7,7 @@ const GLint WIDTH = 800, HEIGHT = 600;
 
 int main()
 {
+    // https://www.youtube.com/watch?v=aOvpU8y_dGo&ab_channel=2trancentral
     // Initialise GLFW
     if(!glfwInit());
     {
@@ -41,7 +42,27 @@ int main()
 
     // Allow modern extension features
     glewExperimental = GL_TRUE;
-    
+
+    if (!glewInit())
+    {
+        printf("GLEW initialisation failed!");
+        glfwDestroyWindow(mainWindow);
+        glfwTerminate();
+        return 1;
+    }
+
+    // Setup Viewport size 
+    glViewport(0, 0, bufferWidth, bufferHeight);
+
+    // Loop until window closed
+    while(!glfwWindowShouldClose())
+    {
+        // Get + Handle user input events
+        glfwPollEvents();
+
+        // Clear window
+        glClearColor(1.0f, );
+    }
 
 
     return 0;
