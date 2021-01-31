@@ -6,7 +6,7 @@ Includes Linear Algebra
 
 
 
-# Setting up the dev env for Linux
+## Setting up the dev env for Linux
 <h5>Install the compiler:</h5> 
 <code>sudo apt update</code></br>
 <h5>Install GCC, G++, and Make:</h5>
