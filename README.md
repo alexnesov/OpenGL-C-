@@ -8,9 +8,9 @@ Includes Linear Algebra
 
 # Setting up the dev env for Linux
 <h5>Install the compiler:</h5> 
-<code>sudo apt update</code></br></br>
+<code>sudo apt update</code></br>
 <h5>Install GCC, G++, and Make:</h5>
-<code>sudo apt install build-essential</code></br></br>
+<code>sudo apt install build-essential</code></br>
 <h5>Install GDB debugger:</h5>
 <code>sudo apt install gdb</code></br>
 </br>
