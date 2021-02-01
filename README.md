@@ -8,7 +8,7 @@ Includes some Linear Algebra
 
 
 ## Setting up the dev env for Linux
-<h5>Install the compiler:</h5> 
+<h4>Install the GCC compiler:</h4> 
 <code>sudo apt update</code></br>
 <h5>Install GCC, G++, and Make:</h5>
 <code>sudo apt install build-essential</code></br>
