@@ -1,10 +1,25 @@
 #include <stdio.h>
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
-
+#include <string.h>
 
 // Window dimensions
 const GLint WIDTH = 800, HEIGHT = 600;
+ 
+GLuint VAO, VBO, shader;
+
+void CreateTriangle()
+{
+	GLfloat vertices[] = {
+		-1.0f, -1.0f, 0.0f,
+		1.0f, -1.0f, 0.0f,
+		0.0f, 1.0f, 0.0f
+	};
+
+	glGenVertexArrays(1, &VAO);
+	glBindVertexArray(VAO);
+	
+}
 
 int main()
 {
@@ -62,7 +77,7 @@ int main()
 		glfwPollEvents();
 
 		// Clear window
-		glClearColor(1.0f, 0.0f, 0.0f, 1.0f);
+		glClearColor(0.0f, 1.0f, 0.0f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT);
 
 		glfwSwapBuffers(mainWindow);
