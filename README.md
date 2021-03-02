@@ -6,6 +6,9 @@ Includes some Linear Algebra
 </br>
 
 
+About VBO & VBA: </br>
+https://medium.com/swlh?source=post_page-----eac6e2138c97--------------------------------
+
 
 ## Setting up the dev env for Linux
 <h4>Install the GCC compiler:</h4> 
