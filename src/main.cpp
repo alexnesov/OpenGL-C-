@@ -8,18 +8,6 @@ const GLint WIDTH = 800, HEIGHT = 600;
  
 GLuint VAO, VBO, shader;
 
-void CreateTriangle()
-{
-	GLfloat vertices[] = {
-		-1.0f, -1.0f, 0.0f,
-		1.0f, -1.0f, 0.0f,
-		0.0f, 1.0f, 0.0f
-	};
-
-	glGenVertexArrays(1, &VAO);
-	glBindVertexArray(VAO);
-	
-}
 
 int main()
 {
