@@ -11,7 +11,7 @@ https://medium.com/swlh/raw-opengl-eac6e2138c97
 
 
 </br>
-<h5> Setting up the dev env for Linux</h5>
+### Setting up the dev env for Linux
 
 <h4>Install the GCC compiler:</h4> 
 <code>sudo apt update</code></br>
