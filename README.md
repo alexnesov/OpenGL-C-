@@ -7,8 +7,7 @@ Includes some Linear Algebra
 
 
 About VBO & VBA: </br>
-https://medium.com/swlh?source=post_page-----eac6e2138c97--------------------------------
-
+https://medium.com/swlh/raw-opengl-eac6e2138c97
 
 
 </br>
